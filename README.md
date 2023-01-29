@@ -1,5 +1,5 @@
 ### Cellular_Automaton for C++
-C++の学習の為に作成。
+C++の学習の為に作成。\
 セル・オートマトンとは核子状のセルが各種のルールによって、生まれたり死滅したりする。
 一次元のセル・オートマトンは単純な仕組みながら、色々と複雑な図形を描いたりする。
 セルの配列の要素一つ一つが、自身を原点nとして、n-1,n,n+1の3マスを3ビットに見立て、各要素に生きているセルがいればその箇所のビットを立てる。
@@ -17,12 +17,12 @@ C++の学習の為に作成。
 つまり、0-255までのルールが存在するが、このルールをウルフラムコードという。
 
 以下のリンクを参照。
-[wikipedia セル・オートマトン](https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%AB%E3%83%BB%E3%82%AA%E3%83%BC%E3%83%88%E3%83%9E%E3%83%88%E3%83%B3){:target="_blank"}
+[wikipedia セル・オートマトン](https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%AB%E3%83%BB%E3%82%AA%E3%83%BC%E3%83%88%E3%83%9E%E3%83%88%E3%83%B3)
 
 ## ダウンロード
 gitコマンドがインストールされているなら、以下のコマンドでダウンロードできる。
 
-$ git clone https//:gihhub/eizawa21
+$ git clone https://github.com/eizawa21/cellular_automaton.git
 
 ダウンロード後に cellular_automaton/ というディレクトリができているのを確認する。
 
